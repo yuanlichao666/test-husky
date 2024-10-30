@@ -4,7 +4,9 @@
   "description": "",
   "main": "src/index.ts",
   "scripts": {
-    "prepare": "husky"
+    "prepare": "husky",
+    "lint-staged": "lint-staged",
+    "commit-lint": "commitlint --edit ${1}"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +18,8 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^19.5.0",
-    "@commitlint/config-conventional": "^19.5.0"
+    "@commitlint/config-conventional": "^19.5.0",
+    "commitizen": "^4.3.1",
+    "cz-conventional-changelog": "^3.3.0"
   }
 }
