@@ -1,1 +1,1 @@
-exec < /dev/tty && pnpm run commitizen --hook
+pnpm run cz

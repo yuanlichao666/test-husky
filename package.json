@@ -6,7 +6,8 @@
   "scripts": {
     "prepare": "husky",
     "lint-staged": "lint-staged",
-    "commit-lint": "commitlint --edit ${1}"
+    "commit-lint": "commitlint --edit ${1}",
+    "cz": "exec < /dev/tty && cz --hook"
   },
   "keywords": [],
   "author": "",
